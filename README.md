@@ -11,6 +11,6 @@ A heurística foi implementada no modelo de programação dinâmica. Ela é apli
 
 ## Utilização da heurística implementada
 
-Os testes foram realizados num intervalo de 11 até 16 cidades, este intervalo foi escolhido por motivos de tempo, pois para o número de cidades menores do que 11 o tempo é baixo e para cidades acima de 16 o tempo é alto, pois para 16 cidades a média de espera é de 10 minutos. Ao tentar executar o programa para 19 cidades o algoritmo não terminou, sendo que o tempo de espera foi de 1 hora e 30 minutos.
+Os testes foram realizados num intervalo de 11 até 16 cidades, este intervalo foi escolhido por motivos de tempo, pois para o número de cidades menores do que 11 o tempo é baixo e para o número de cidades igual ou abaixo de 16 o tempo é mais alto (cerca de 10 minutos). Ao tentar executar o programa para 19 cidades o algoritmo não terminou, sendo que o tempo de espera foi de 1 hora e 30 minutos aproximadamente.
 
 O arquivo Cidades.txt possui o arquivo para testes. O primeiro número represente a quantidade de cidades o restante dos números representam as coordenadas de cada cidade.
