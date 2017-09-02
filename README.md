@@ -13,4 +13,24 @@ A heurística foi implementada no modelo de programação dinâmica. Ela é apli
 
 Os testes foram realizados num intervalo de 11 até 16 cidades, este intervalo foi escolhido por motivos de tempo, pois para o número de cidades menores do que 11 o tempo é baixo e para o número de cidades igual ou abaixo de 16 o tempo é mais alto (cerca de 10 minutos). Ao tentar executar o programa para 19 cidades o algoritmo não terminou, sendo que o tempo de espera foi de 1 hora e 30 minutos aproximadamente.
 
-O arquivo Cidades.txt possui o arquivo para testes. O primeiro número represente a quantidade de cidades o restante dos números representam as coordenadas de cada cidade.
+O arquivo [Cidades.txt](https://github.com/RodolfoHerman/caixeiro-viajante-com-programacao-dinamica/blob/master/Cidades.txt) possui o arquivo para testes. O primeiro número represente a quantidade de cidades o restante dos números representam as coordenadas de cada cidade.
+
+- Exemplo de entrada (ao todo são 15 cidades, mas apenas 10 foram selecionadas):
+```
+10
+911 930
+615 299
+675 25
+806 11
+569 737
+396 674
+293 841
+621 871
+591 19
+850 126
+58 132
+97 750
+67 361
+57 529
+668 659
+```
