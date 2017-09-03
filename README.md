@@ -6,7 +6,12 @@ O Problema do Caixeiro Viajante (PCV) ou Travelling Sales Person (TSP) é um pro
 
 ## Heurística utilizada para a implementação
 
-Neste [arquivo]( https://github.com/RodolfoHerman/caixeiro-viajante-com-programacao-dinamica/blob/master/heuristicaTSP.pdf) contém a heurística base para a implementação, e este outro [arquivo]( http://www.cs.cmu.edu/~rweba/algf09/dynprog.pdf) o documento original. Também foi utilizado o seguinte [vídeo](https://www.youtube.com/watch?v=aQB_Y9D5pdw) para complementar o entendimento da heurística. 
+Abaixo a heurística base para a implementação: 
+
+![heu](https://github.com/RodolfoHerman/caixeiro-viajante-com-programacao-dinamica/blob/master/impl.png)
+
+e este outro [arquivo]( http://www.cs.cmu.edu/~rweba/algf09/dynprog.pdf) o documento original. Também foi utilizado o seguinte [vídeo](https://www.youtube.com/watch?v=aQB_Y9D5pdw) para complementar o entendimento da heurística. 
+
 A heurística foi implementada no modelo de programação dinâmica. Ela é aplicável a problemas nos quais a solução ótima pode ser computada a partir da solução ótima previamente calculada e memorizada - de forma a evitar recálculo - de outros subproblemas que, sobrepostos, compõem o problema original.
 
 ## Utilização da heurística implementada
